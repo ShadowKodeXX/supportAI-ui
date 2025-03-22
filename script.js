@@ -10,7 +10,7 @@ async function askBot() {
     responseDiv.innerText = "🤖 Thinking...";
   
     try {
-      const res = await fetch("https://your-bot-url.onrender.com/chat", {
+      const res = await fetch("https://supportbot-gesc.onrender.com/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query }),
